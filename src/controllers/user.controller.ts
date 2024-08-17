@@ -53,19 +53,21 @@ class UserController {
     }
   };
 
+
+
   /**
    * Controller to create new user
    * @param  {object} Request - request object
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-  public newUser = async (
+  public userRegistration = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.newUser(req.body);
+      const data = await this.UserService.userRegistration(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
         data: data,

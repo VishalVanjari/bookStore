@@ -1,0 +1,94 @@
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T06:05:39.086Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:05:39.405Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:14:51.148Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:14:55.067Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T06:14:59.890Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:15:00.145Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T06:15:10.901Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:15:11.263Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:15:18.526Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T06:15:24.350Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:15:24.557Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:15:39.623Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T06:15:43.326Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T06:15:43.498Z"}
+error: 
+    status - 500 
+    message - ValidationError: "role" is not allowed 
+    url - /users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-16T07:39:28.161Z"}
+error: 
+    status - 500 
+    message - ValidationError: "role" is not allowed 
+    url - /users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-16T07:41:10.661Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:04.772Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:08.817Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:13.479Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T07:47:17.431Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:17.621Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:37.685Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:42.034Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:46.412Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:50.352Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:47:54.447Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:48:28.200Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:48:40.930Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:48:46.764Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:48:52.996Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:48:57.257Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:49:21.449Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:49:25.685Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:49:30.048Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:49:34.212Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:49:38.533Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:49:42.884Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:49:47.802Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T07:50:33.087Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T08:59:02.538Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T08:59:06.341Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T08:59:10.200Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T08:59:14.977Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T08:59:33.502Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T08:59:48.985Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T08:59:52.691Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T08:59:56.473Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:01.189Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:05.646Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:09.351Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:13.058Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:30.450Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:36.335Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:42.989Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:46.820Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:52.808Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:00:56.567Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:02:11.415Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:02:15.227Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:02:18.752Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:02:22.505Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:02:26.140Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:02:29.942Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:03:48.847Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:05:07.012Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:05:24.913Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:08:17.230Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:08:21.025Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:17:18.577Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T09:18:02.412Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:18:02.509Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T09:18:48.808Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:18:48.908Z"}
+error: 
+    status - 500 
+    message - ValidationError: "role" is not allowed 
+    url - /users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-16T09:19:09.028Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-16T09:19:39.272Z"}
+info: Connected to the database. {"timestamp":"2024-08-16T09:19:39.382Z"}

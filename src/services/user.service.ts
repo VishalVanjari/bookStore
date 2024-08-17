@@ -12,8 +12,8 @@ class UserService {
     return data;
   };
 
-  //create a new user
-  public newUser = async (body) => {
+  //Register a new user
+  public userRegistration = async (body) => {
     const data = await this.User.create(body);
     return data;
   };

@@ -1,0 +1,68 @@
+info: ::1 - - [15/Aug/2024:07:12:08 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+error: uncaughtException: connect ETIMEDOUT
+SequelizeConnectionError: connect ETIMEDOUT
+    at ConnectionManager.connect (C:\Users\Vishal\Documents\BridgeLabz\BookStore\bookStore\node_modules\sequelize\src\dialects\mysql\connection-manager.js:126:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at ConnectionManager._connect (C:\Users\Vishal\Documents\BridgeLabz\BookStore\bookStore\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at C:\Users\Vishal\Documents\BridgeLabz\BookStore\bookStore\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32 {"date":"Thu Aug 15 2024 12:42:11 GMT+0530 (India Standard Time)","error":{"name":"SequelizeConnectionError","original":{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"syscall":"connect"},"parent":{"code":"ETIMEDOUT","errorno":"ETIMEDOUT","fatal":true,"syscall":"connect"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":55468.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\BookStore\\bookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":33572,"external":2371829,"heapTotal":21286912,"heapUsed":19852304,"rss":54063104},"pid":6016,"uid":null,"version":"v20.14.0"},"stack":"SequelizeConnectionError: connect ETIMEDOUT\n    at ConnectionManager.connect (C:\\Users\\Vishal\\Documents\\BridgeLabz\\BookStore\\bookStore\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:126:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (C:\\Users\\Vishal\\Documents\\BridgeLabz\\BookStore\\bookStore\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at C:\\Users\\Vishal\\Documents\\BridgeLabz\\BookStore\\bookStore\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","trace":[{"column":17,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\BookStore\\bookStore\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js","function":"ConnectionManager.connect","line":126,"method":"connect","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\BookStore\\bookStore\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js","function":"ConnectionManager._connect","line":332,"method":"_connect","native":false},{"column":32,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\BookStore\\bookStore\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js","function":null,"line":250,"method":null,"native":false}]}
+info: ::1 - - [15/Aug/2024:07:41:20 +0000] "GET /api/v1/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [15/Aug/2024:07:41:28 +0000] "GET / HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [15/Aug/2024:07:43:48 +0000] "POST / HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:07:44:22 +0000] "POST /users/ HTTP/1.1" 201 195 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:08:11:23 +0000] "POST /users/ HTTP/1.1" 201 195 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:08:11:58 +0000] "POST /users/ HTTP/1.1" 500 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:08:12:39 +0000] "POST /users/admin HTTP/1.1" 201 197 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:09:04:05 +0000] "GET /users/ HTTP/1.1" 200 341 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:12:44:30 +0000] "POST /users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:12:44:46 +0000] "POST /users/admin HTTP/1.1" 201 247 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:12:46:41 +0000] "POST /users/login HTTP/1.1" 500 61 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:12:48:46 +0000] "POST /users/login HTTP/1.1" 500 61 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:12:51:28 +0000] "POST /users/login HTTP/1.1" 500 61 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:12:54:39 +0000] "POST /users/login HTTP/1.1" 500 61 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:12:55:33 +0000] "POST /users/login HTTP/1.1" 200 416 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [15/Aug/2024:12:55:49 +0000] "POST /users/login HTTP/1.1" 200 418 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:07:39:28 +0000] "POST /users/ HTTP/1.1" 500 58 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:07:41:10 +0000] "POST /users/admin HTTP/1.1" 500 58 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:07:42:16 +0000] "POST /users/admin HTTP/1.1" 201 247 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:07:42:23 +0000] "POST /users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:07:44:18 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:18:15 +0000] "POST /users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:18:22 +0000] "POST / HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:18:28 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:18:51 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:19:09 +0000] "POST /users/ HTTP/1.1" 500 58 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:19:20 +0000] "POST /users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:19:53 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:20:04 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [16/Aug/2024:09:20:18 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+

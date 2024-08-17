@@ -9,23 +9,23 @@ export { DataTypes } from 'sequelize';
 const logger = Logger.logger;
 
 let DATABASE = process.env.DATABASE;
-let USERNAME = process.env.USERNAME;
+let USERNAME = process.env.DB_USERNAME;
 let PASSWORD = process.env.PASSWORD;
 let HOST = process.env.HOST;
 let PORT = parseInt(process.env.PORT);
 
 if (process.env.NODE_ENV === 'test') {
-  DATABASE = process.env.DATABASE_TEST;
-  USERNAME = process.env.USERNAME_TEST;
-  PASSWORD = process.env.PASSWORD_TEST;
-  HOST = process.env.HOST_TEST;
-  PORT = parseInt(process.env.PORT_TEST);
+  const DATABASE = process.env.DATABASE;
+  const USERNAME = process.env.DB_USERNAME;
+  const PASSWORD = process.env.PASSWORD;
+  const HOST = process.env.HOST;
+  const PORT = parseInt(process.env.PORT);
 }
 
 const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
   host: HOST,
   port: PORT,
-  dialect: 'mysql',
+  dialect: 'postgres',
   pool: {
     max: 5,
     min: 0,

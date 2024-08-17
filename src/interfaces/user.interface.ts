@@ -1,6 +1,9 @@
 export interface IUser {
+  id ?: number;
   firstName: string;
   lastName: string;
   email: string;
-  id?: string | number;
+  password: string;
+  mobile: string;
+  role: { enum: ['user', 'admin'] };
 }
