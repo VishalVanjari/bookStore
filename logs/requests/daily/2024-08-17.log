@@ -1,0 +1,52 @@
+info: ::1 - - [17/Aug/2024:06:26:08 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [17/Aug/2024:06:27:37 +0000] "POST /users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:27:42 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:27:46 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:27:57 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:38:22 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:38:27 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:59:52 +0000] "POST / HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:07:03 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:08:17 +0000] "POST /users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:08:23 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:08:27 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:08:48 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:10:48 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:15:42 +0000] "POST /users/login HTTP/1.1" 500 59 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:16:15 +0000] "POST /users/login HTTP/1.1" 500 59 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:16:27 +0000] "POST /users/admin HTTP/1.1" 500 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:16:36 +0000] "POST /users/login HTTP/1.1" 500 59 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:17:17 +0000] "POST /users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:17:25 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:17:38 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:18:00 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:19:11 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:19:59 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:21:52 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:23:29 +0000] "POST /books/ HTTP/1.1" 201 256 "-" "PostmanRuntime/7.41.1"
+

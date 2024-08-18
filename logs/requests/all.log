@@ -66,3 +66,159 @@ info: ::1 - - [16/Aug/2024:09:20:04 +0000] "POST /users/login HTTP/1.1" 200 435 
 
 info: ::1 - - [16/Aug/2024:09:20:18 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
 
+info: ::1 - - [17/Aug/2024:06:26:08 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [17/Aug/2024:06:27:37 +0000] "POST /users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:27:42 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:27:46 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:27:57 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:38:22 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:38:27 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:06:59:52 +0000] "POST / HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:07:03 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:08:17 +0000] "POST /users/ HTTP/1.1" 201 245 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:08:23 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:08:27 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:08:48 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:07:10:48 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:15:42 +0000] "POST /users/login HTTP/1.1" 500 59 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:16:15 +0000] "POST /users/login HTTP/1.1" 500 59 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:16:27 +0000] "POST /users/admin HTTP/1.1" 500 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:16:36 +0000] "POST /users/login HTTP/1.1" 500 59 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:17:17 +0000] "POST /users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:17:25 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:17:38 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:18:00 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:19:11 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:19:59 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:21:52 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [17/Aug/2024:09:23:29 +0000] "POST /books/ HTTP/1.1" 201 256 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:45:41 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:47:22 +0000] "POST /books/ HTTP/1.1" 201 252 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:48:04 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:48:49 +0000] "POST /books/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:49:19 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:49:39 +0000] "POST /books/ HTTP/1.1" 201 257 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:50:18 +0000] "POST /users/admin HTTP/1.1" 201 244 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:50:32 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:05:51:17 +0000] "POST /books/ HTTP/1.1" 201 256 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:02:42 +0000] "GET /books/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:03:11 +0000] "GET /books/ HTTP/1.1" 200 841 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:08:54 +0000] "GET /books/ HTTP/1.1" 200 259 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:09:40 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:10:25 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:10:42 +0000] "GET /books/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:11:03 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:11:14 +0000] "GET /books/ HTTP/1.1" 200 646 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:12:37 +0000] "GET /books/2 HTTP/1.1" 200 248 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:12:50 +0000] "GET /books/4 HTTP/1.1" 200 252 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:19:03 +0000] "GET /books/4 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:19:08 +0000] "GET /books/3 HTTP/1.1" 200 253 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:19:13 +0000] "GET /books/2 HTTP/1.1" 200 248 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:31:15 +0000] "PUT /books/2 HTTP/1.1" 202 118 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:33:53 +0000] "PUT /books/2 HTTP/1.1" 202 226 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:34:43 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:35:04 +0000] "GET /books/ HTTP/1.1" 200 647 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:35:21 +0000] "GET /books/2 HTTP/1.1" 200 249 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:36:18 +0000] "PUT /books/2 HTTP/1.1" 202 186 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:42:29 +0000] "PUT /books/update/3 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:42:59 +0000] "PUT /books/update/3 HTTP/1.1" 202 186 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:45:53 +0000] "DELETE /books/delete/3 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:52:27 +0000] "DELETE /books/delete/3 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:52:40 +0000] "DELETE /books/delete/4 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:06:53:05 +0000] "DELETE /books/delete/2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:07:27 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:07:43 +0000] "POST /users/ HTTP/1.1" 201 243 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:08:20 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:08:41 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:09:43 +0000] "POST /books/ HTTP/1.1" 201 256 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:10:04 +0000] "POST /books/ HTTP/1.1" 201 252 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:10:23 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:11:00 +0000] "POST /books/ HTTP/1.1" 201 255 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:11:48 +0000] "POST /books/ HTTP/1.1" 201 256 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:12:16 +0000] "GET /books/ HTTP/1.1" 200 453 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:12:56 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:13:10 +0000] "GET /books/ HTTP/1.1" 200 450 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:13:29 +0000] "GET /books/2 HTTP/1.1" 200 248 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:13:35 +0000] "GET /books/5 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:13:43 +0000] "GET /books/2 HTTP/1.1" 200 248 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:14:24 +0000] "PUT /books/update/3 HTTP/1.1" 202 186 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:15:04 +0000] "PUT /books/update/2 HTTP/1.1" 202 186 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:07:15:31 +0000] "DELETE /books/delete/2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+

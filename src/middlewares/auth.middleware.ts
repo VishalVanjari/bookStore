@@ -2,7 +2,9 @@
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import { Request, Response, NextFunction } from 'express';
+import dotenv from 'dotenv';
 
+const secretKey = process.env.SECRET_KEY;
 /**
  * Middleware to authenticate if user has a valid Authorization token
  * Authorization: Bearer <token>
@@ -18,6 +20,8 @@ export const userAuth = async (
 ): Promise<void> => {
   try {
     let bearerToken = req.header('Authorization');
+    console.log(bearerToken);
+    
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
@@ -25,9 +29,9 @@ export const userAuth = async (
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { user }: any = await jwt.verify(bearerToken, 'your-secret-key');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
+    const { id ,role }: any = await jwt.verify(bearerToken, secretKey);
+    req.body.userId = id;
+    req.body.role = role;
     next();
   } catch (error) {
     next(error);

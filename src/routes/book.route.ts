@@ -15,24 +15,20 @@ class BookRoutes {
   }
 
   private routes = () => {
+    //route to Create new Book
+    this.router.post('', userAuth, this.BookController.newBook);
 
-    //route to SignUp with Admin
-    this.router.post('', this.BookController.newBook);
+    //route to get all books
+    this.router.get('', userAuth, this.BookController.getAllBooks);
 
-    //route to SignUp with User
-    //this.router.post('', this.UserController.newUser);
+    //route to get single book
+    this.router.get('/:id', userAuth, this.BookController.getSingleBook);
 
-     //route to get all users
-     this.router.get('', this.UserController.getAllUsers);
-
-    //route to get a single user by their id
-    this.router.get('/:id', userAuth, this.UserController.getUser);
-
-    //route to update a user by their id
-    this.router.put('/:id', this.UserController.updateUser);
+    //route to update a book by their id
+    this.router.put('/update/:id', userAuth, this.BookController.updateBook);
 
     //route to delete a user by their id
-    this.router.delete('/:id', this.UserController.deleteUser);
+    this.router.delete('/delete/:id', userAuth, this.BookController.deleteBook);
   };
 
   public getRoutes = (): IRouter => {

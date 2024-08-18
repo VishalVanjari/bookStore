@@ -2,10 +2,8 @@ import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
 import { userAuth } from '../middlewares/auth.middleware';
-import adminController from '../controllers/admin.controller';
 
 class UserRoutes {
-  private AdminController = new adminController();
   private UserController = new userController();
   private router = express.Router();
   private UserValidator = new userValidator();
@@ -23,7 +21,7 @@ class UserRoutes {
     this.router.post('', this.UserValidator.userRegistration, this.UserController.userRegistration);
 
     //route to login with Admin and User
-    this.router.post('/login',this.UserValidator.login, this.AdminController.login);
+    this.router.post('/login',this.UserValidator.login, this.UserController.login);
 
     //  //route to get all users
     //  this.router.get('', this.UserController.getAllUsers);
