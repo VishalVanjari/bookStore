@@ -57,6 +57,17 @@ class UserValidator {
     }
     next();
   };
+
+  public checkAdmin = (req: Request, res: Response, next: NextFunction): void => {
+    
+    if (req.body.role == 'admin') {
+      next();
+    }
+    else{
+      res.json("Not Accesible")
+    }
+    
+  };
 }
 
 export default UserValidator;

@@ -222,3 +222,231 @@ info: ::1 - - [18/Aug/2024:07:15:04 +0000] "PUT /books/update/2 HTTP/1.1" 202 18
 
 info: ::1 - - [18/Aug/2024:07:15:31 +0000] "DELETE /books/delete/2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
 
+info: ::1 - - [18/Aug/2024:08:05:57 +0000] "GET /books/2 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:08:51:31 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:08:51:49 +0000] "POST /users/addToCart/1/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:08:54:30 +0000] "POST /cart/addToCart/1/1 HTTP/1.1" 500 79 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:08:58:05 +0000] "POST /cart/addToCart/1/1 HTTP/1.1" 500 116 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:08:59:45 +0000] "POST /cart/addToCart/1/1 HTTP/1.1" 500 116 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:09:00:19 +0000] "POST /users/ HTTP/1.1" 201 243 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:09:00:25 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:09:00:44 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:09:00:53 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:09:01:09 +0000] "POST /books/ HTTP/1.1" 201 256 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:09:01:24 +0000] "POST /books/ HTTP/1.1" 201 255 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:09:01:36 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:09:01:51 +0000] "POST /cart/addToCart/1/1 HTTP/1.1" 201 120 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:06:48 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:07:45 +0000] "POST /cart/addToCart/2/2 HTTP/1.1" 201 120 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:08:39 +0000] "GET /cart/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:08:56 +0000] "GET /cart/ HTTP/1.1" 500 89 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:09:22 +0000] "GET /cart/ HTTP/1.1" 200 198 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:17:03 +0000] "PUT /cart/update/2/5 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:18:26 +0000] "PUT /cart/update/2/5 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:22:37 +0000] "PUT /cart/update/2/5 HTTP/1.1" 202 74 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [18/Aug/2024:13:29:42 +0000] "DELETE /cart/delete/1 HTTP/1.1" 200 70 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:19:01 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:19:45 +0000] "POST /cart/addToCart/1/2 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:20:38 +0000] "POST /cart/addToCart/2/2 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:22:21 +0000] "POST /cart/addToCart/2/2 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:22:40 +0000] "POST /cart/addToCart/2/2 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:24:50 +0000] "POST /cart/addToCart/1/2 HTTP/1.1" 201 124 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:26:59 +0000] "POST /cart/addToCart/2/2 HTTP/1.1" 201 124 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:30:19 +0000] "DELETE /cart/delete/1 HTTP/1.1" 200 70 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:30:52 +0000] "DELETE /cart/delete/2 HTTP/1.1" 200 70 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:31:06 +0000] "POST /cart/addToCart/2/2 HTTP/1.1" 201 124 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:31:14 +0000] "POST /cart/addToCart/1/8 HTTP/1.1" 201 125 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:36:31 +0000] "POST /users/ HTTP/1.1" 201 243 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:36:35 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:37:03 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:37:19 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:37:59 +0000] "POST /books/ HTTP/1.1" 201 252 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:38:41 +0000] "POST /books/ HTTP/1.1" 201 252 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:38:53 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:39:43 +0000] "POST /books/ HTTP/1.1" 201 257 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:39:58 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:40:15 +0000] "POST /cart/addToCart/1/5 HTTP/1.1" 500 48 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:40:36 +0000] "POST /cart/addToCart/1/5 HTTP/1.1" 500 48 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:41:38 +0000] "POST /cart/addToCart/1/5 HTTP/1.1" 500 48 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:42:14 +0000] "POST /cart/addToCart/1/2 HTTP/1.1" 500 48 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:43:36 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:43:51 +0000] "POST /cart/addToCart/1/2 HTTP/1.1" 201 149 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:44:22 +0000] "POST /cart/addToCart/2/1 HTTP/1.1" 201 149 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:44:32 +0000] "GET /cart/ HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:44:39 +0000] "GET /cart/ HTTP/1.1" 200 256 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:47:40 +0000] "POST /cart/addToCart/3/20 HTTP/1.1" 201 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:05:57:54 +0000] "POST /cart/addToCart/3/2 HTTP/1.1" 201 149 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:13:40 +0000] "GET /cart/ HTTP/1.1" 500 63 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:14:42 +0000] "PUT /cart/update/2/5 HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:15:24 +0000] "POST /users/ HTTP/1.1" 201 243 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:15:28 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:15:32 +0000] "POST /users/admin HTTP/1.1" 201 246 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:15:41 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:16:00 +0000] "POST /books/ HTTP/1.1" 201 257 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:16:10 +0000] "POST /books/ HTTP/1.1" 201 252 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:16:24 +0000] "GET /books/ HTTP/1.1" 200 451 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:16:39 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:16:58 +0000] "POST /cart/addToCart/1/2 HTTP/1.1" 201 155 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:17:11 +0000] "POST /cart/addToCart/2/3 HTTP/1.1" 201 156 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:18:02 +0000] "PUT /cart/update/1/0 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:18:10 +0000] "PUT /cart/update/1/1 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:18:33 +0000] "PUT /cart/update/1/1 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:18:48 +0000] "PUT /cart/update/1/5 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:19:15 +0000] "PUT /cart/update/1/0 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:20:47 +0000] "PUT /cart/update/2/1 HTTP/1.1" 202 112 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:23:28 +0000] "PUT /cart/update/2/1 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:27:04 +0000] "POST /books/ HTTP/1.1" 201 255 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:30:39 +0000] "POST /books/ HTTP/1.1" 200 15 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:33:22 +0000] "PUT /cart/update/2/1 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:36:36 +0000] "POST /cart/addToCart/2/3 HTTP/1.1" 201 156 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:37:02 +0000] "PUT /cart/update/2/2 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:37:52 +0000] "PUT /cart/update/2/2 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:38:41 +0000] "PUT /cart/update/2/2 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:41:45 +0000] "PUT /cart/update/2/2 HTTP/1.1" 202 98 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:42:49 +0000] "PUT /cart/update/2/1 HTTP/1.1" 202 97 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:43:37 +0000] "POST /cart/addToCart/1/3 HTTP/1.1" 201 155 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:43:41 +0000] "GET /cart/ HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:43:50 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:44:06 +0000] "GET /cart/ HTTP/1.1" 200 365 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:45:02 +0000] "DELETE /cart/delete/2 HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:45:48 +0000] "DELETE /cart/delete/2 HTTP/1.1" 200 70 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:46:03 +0000] "POST /cart/addToCart/2/3 HTTP/1.1" 201 156 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:06:46:21 +0000] "PUT /cart/update/1/5 HTTP/1.1" 202 98 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:07:01:40 +0000] "POST /cart/addToCart/2/3 HTTP/1.1" 201 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:07:01:50 +0000] "POST /cart/addToCart/2/5 HTTP/1.1" 201 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:07:15:29 +0000] "POST /cart/addToCart/1/5 HTTP/1.1" 201 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:07:16:05 +0000] "PUT /cart/update/1/10 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:07:16:49 +0000] "PUT /cart/update/1/20 HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:53:21 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:08:53:58 +0000] "PUT /cart/update/1/20 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:08:58 +0000] "PUT /cart/update/1/20 HTTP/1.1" 500 22 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:09:30 +0000] "DELETE /cart/delete/1 HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:09:35 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:09:46 +0000] "DELETE /cart/delete/1 HTTP/1.1" 200 70 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:10:00 +0000] "POST /cart/addToCart/1/5 HTTP/1.1" 201 156 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:10:36 +0000] "POST /cart/addToCart/1/20 HTTP/1.1" 201 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:11:01 +0000] "PUT /cart/update/1/20 HTTP/1.1" 500 22 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:11:13 +0000] "PUT /cart/update/1/10 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:11:24 +0000] "PUT /cart/update/1/15 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:11:33 +0000] "PUT /cart/update/1/1 HTTP/1.1" 202 97 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:11:39 +0000] "PUT /cart/update/1/16 HTTP/1.1" 500 22 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:12:16 +0000] "PUT /cart/update/1/16 HTTP/1.1" 500 91 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:16:20 +0000] "PUT /cart/update/1/16 HTTP/1.1" 202 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:24:32 +0000] "PUT /cart/update/1/8 HTTP/1.1" 202 98 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:44:03 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:44:19 +0000] "GET /books/ HTTP/1.1" 200 15 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [19/Aug/2024:09:44:36 +0000] "GET /cart/ HTTP/1.1" 200 270 "-" "PostmanRuntime/7.41.1"
+

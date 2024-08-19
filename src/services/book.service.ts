@@ -3,7 +3,7 @@ import { IBook } from '../interfaces/book.interface';
 
 import book from '../models/book';
 
-class AdminService {
+class BookService {
   private Book = book(sequelize, DataTypes);
 
   // create new Book
@@ -39,4 +39,4 @@ class AdminService {
   };
 }
 
-export default AdminService;
+export default BookService;
