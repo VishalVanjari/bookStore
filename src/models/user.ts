@@ -15,9 +15,15 @@ export default (sequelize, DataTypes) => {
     public mobile;
     public role;
 
+    // static associate(models) {
+    //   User.hasMany(models.Wishlist, { foreignKey: 'id' });
+    // }
+
     static associate(models) {
-      // define association here
+      User.hasMany(models.Wishlist, { foreignKey: 'userId' });
     }
+    
+    
   }
   User.init(
     {

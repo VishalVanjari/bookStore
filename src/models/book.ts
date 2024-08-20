@@ -15,12 +15,15 @@ export default (sequelize, DataTypes) => {
     public quantity;
     public userId;
 
+    // static associate(models) {
+    //   Book.belongsTo(models.User, { foreignKey: 'userId', as: 'user'});
+    //   Book.hasMany(models.Wishlist, { foreignKey: 'bookId' });
+    // }
+
     static associate(models) {
-      Book.belongsTo(models.User, {
-        foreignKey: 'userId',
-        as: 'user'
-      });
+      Book.hasMany(models.Wishlist, { foreignKey: 'bookId' });
     }
+    
   }
   Book.init(
     {

@@ -847,3 +847,382 @@ info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T09:27:39.
 info: Connected to the database. {"timestamp":"2024-08-19T09:27:39.870Z"}
 info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T09:43:58.125Z"}
 info: Connected to the database. {"timestamp":"2024-08-19T09:43:58.236Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:03:24.618Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:03:24.722Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:03:43.797Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:03:44.018Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:15:49.160Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:15:49.289Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:20:26.701Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:20:26.828Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:21:05.380Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:21:05.517Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:21:09.273Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:21:09.392Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:21:13.207Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:21:13.338Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:21:31.529Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:21:31.646Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:23:37.685Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:23:37.796Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:25:38.832Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:25:38.958Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:25:42.313Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:25:42.420Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /wishlist/addToWishlist/1 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-19T10:26:03.016Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.bookId cannot be null,
+notNull Violation: wishlist.bookName cannot be null,
+notNull Violation: wishlist.author cannot be null,
+notNull Violation: wishlist.discountPrice cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:26:20.376Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:27:50.978Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:27:51.200Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:27:53.286Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:27:53.395Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:27:54.437Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:27:54.674Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:27:56.364Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:27:56.486Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:28:01.607Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:28:01.759Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.bookId cannot be null,
+notNull Violation: wishlist.bookName cannot be null,
+notNull Violation: wishlist.author cannot be null,
+notNull Violation: wishlist.discountPrice cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:28:07.274Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:28:44.213Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:28:44.440Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.userId cannot be null,
+notNull Violation: wishlist.bookId cannot be null,
+notNull Violation: wishlist.bookName cannot be null,
+notNull Violation: wishlist.author cannot be null,
+notNull Violation: wishlist.discountPrice cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:28:47.471Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:29:42.504Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:29:42.618Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:29:44.707Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:29:44.836Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:29:48.625Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:29:48.754Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.userId cannot be null,
+notNull Violation: wishlist.bookId cannot be null,
+notNull Violation: wishlist.bookName cannot be null,
+notNull Violation: wishlist.author cannot be null,
+notNull Violation: wishlist.discountPrice cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:29:51.067Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:30:22.645Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:30:22.754Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.userId cannot be null,
+notNull Violation: wishlist.bookId cannot be null,
+notNull Violation: wishlist.bookName cannot be null,
+notNull Violation: wishlist.author cannot be null,
+notNull Violation: wishlist.discountPrice cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:30:25.754Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:31:50.078Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:31:50.195Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:31:52.450Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:31:52.573Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:31:58.331Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:31:58.448Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.userId cannot be null,
+notNull Violation: wishlist.bookId cannot be null,
+notNull Violation: wishlist.bookName cannot be null,
+notNull Violation: wishlist.author cannot be null,
+notNull Violation: wishlist.discountPrice cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:32:00.587Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:33:28.266Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:33:28.374Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:33:29.853Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:33:29.972Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:33:31.477Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:33:31.592Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:33:48.435Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:33:48.559Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:34:13.326Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:13.428Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:16.134Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:34:22.825Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:22.944Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:34:24.601Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:24.726Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:34:27.216Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:27.452Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:34:43.315Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:43.435Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:50.915Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:34:54.466Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:54.578Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:34:56.780Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:34:56.888Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:35:04.186Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:04.304Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:35:08.251Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:08.378Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:35:09.534Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:09.770Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:35:14.382Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:14.497Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:35:15.522Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:15.635Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:35:17.604Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:17.720Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:35:30.695Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:30.793Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:32.280Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:36.033Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:39.783Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:43.384Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:35:46.910Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:35:47.152Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:36:14.916Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:36:15.020Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:36:16.683Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:36:16.806Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:36:21.333Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:36:24.931Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:36:25.045Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:36:30.091Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:36:30.236Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:41:26.770Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:41:26.883Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:41:30.132Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:41:30.248Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:43:37.185Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:43:41.272Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:43:45.037Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:43:45.134Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:43:50.257Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:43:50.372Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:43:53.006Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:43:53.120Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:44:48.930Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:44:49.052Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.userId cannot be null,
+notNull Violation: wishlist.bookId cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:48:05.122Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:51:18.525Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:51:18.655Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:51:20.028Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:51:20.163Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:51:22.438Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:51:22.554Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:51:23.460Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:51:23.565Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:51:28.125Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:51:28.246Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T10:53:04.529Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T10:53:04.637Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.userId cannot be null,
+notNull Violation: wishlist.bookId cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:53:09.935Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.userId cannot be null,
+notNull Violation: wishlist.bookId cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T10:53:14.022Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:02:09.073Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:02:09.214Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:02:24.640Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:02:24.760Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:02:29.533Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:02:29.774Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:02:36.208Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:02:36.334Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:02:46.185Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:02:46.308Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:03:01.561Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:03:01.684Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:03:04.257Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:03:04.371Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: wishlist.userId cannot be null,
+notNull Violation: wishlist.bookId cannot be null
+    at InstanceValidator._validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\instance-validator.js:93:12)
+    at Wishlist.save (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\Vishal\Documents\BridgeLabz\BookStore2\bookStore\node_modules\sequelize\src\model.js:2305:12) 
+    url - /wishlist/addToWishlist/2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-19T11:03:13.821Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:05:02.612Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:05:02.724Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:05:10.311Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:05:10.443Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:07:50.045Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:07:50.262Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:10:43.004Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:10:43.228Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:10:48.404Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:10:48.500Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:10:50.789Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:10:50.899Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:10:52.025Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:10:52.240Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:10:54.203Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:10:54.323Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:11:02.297Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:11:02.412Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:11:46.182Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:11:46.300Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:12:13.412Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:12:25.172Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:12:35.994Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:12:39.516Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:12:39.630Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:12:41.297Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:12:41.411Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:12:45.061Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:12:45.173Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:13:00.636Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:13:00.736Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:13:10.333Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:13:10.432Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:13:21.503Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:13:21.624Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:13:27.711Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:13:27.836Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:14:21.043Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:14:21.158Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:14:37.367Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:14:37.578Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:14:59.038Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:14:59.157Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /wishlist/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-08-19T11:15:09.580Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:17:23.242Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:17:23.352Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:17:25.222Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:17:25.331Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:17:28.969Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:17:41.482Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:17:45.154Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:17:56.375Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:18:00.050Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:18:03.704Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:18:07.463Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:18:11.043Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:18:11.170Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:18:13.656Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:18:13.771Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:18:17.558Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:18:17.674Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:18:31.026Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:18:31.145Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:18:36.962Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:18:37.088Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:19:29.094Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:19:29.319Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-19T11:19:36.222Z"}
+info: Connected to the database. {"timestamp":"2024-08-19T11:19:36.343Z"}
