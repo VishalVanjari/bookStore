@@ -18,8 +18,11 @@ class BookRoutes {
     //route to Create new Book
     this.router.post('', userAuth, this.UserValidator.checkAdmin,this.BookController.newBook);
 
-    //route to get all books
-    this.router.get('', userAuth,this.UserValidator.checkAdmin, this.BookController.getAllBooks);
+    //route to get all books for User
+    this.router.get('', userAuth, this.BookController.getAllBooksUser);
+
+    //route to get all books fot admin
+    this.router.get('/getAllBooks', userAuth,this.UserValidator.checkAdmin, this.BookController.getAllBooksAdmin);
 
     //route to get single book
     this.router.get('/:id', userAuth,this.UserValidator.checkAdmin, this.BookController.getSingleBook);

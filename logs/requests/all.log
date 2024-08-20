@@ -528,3 +528,61 @@ info: ::1 - - [19/Aug/2024:11:21:22 +0000] "DELETE /wishlist/delete/2 HTTP/1.1" 
 
 info: ::1 - - [19/Aug/2024:11:21:36 +0000] "DELETE /wishlist/delete/2 HTTP/1.1" 200 74 "-" "PostmanRuntime/7.41.1"
 
+info: ::1 - - [20/Aug/2024:05:42:05 +0000] "POST /users/login HTTP/1.1" 200 433 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:05:42:36 +0000] "POST /order/placeorder/1 HTTP/1.1" 500 80 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:05:46:53 +0000] "POST /order/placeorder/1/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:05:47:02 +0000] "POST /order/1/2 HTTP/1.1" 201 118 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:05:48:57 +0000] "POST /order/1/2 HTTP/1.1" 201 119 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:05:53:42 +0000] "GET /order HTTP/1.1" 500 86 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:05:55:24 +0000] "POST /order/2/2 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:05:55:41 +0000] "POST /order/2/2 HTTP/1.1" 201 118 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:05:55:47 +0000] "GET /order HTTP/1.1" 200 249 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:10:40 +0000] "POST /order/1/5 HTTP/1.1" 500 93 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:12:08 +0000] "POST /order/1/5 HTTP/1.1" 201 119 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:12:18 +0000] "GET /order HTTP/1.1" 200 373 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:14:03 +0000] "POST /order/1/5 HTTP/1.1" 201 119 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:14:42 +0000] "POST /order/1/5 HTTP/1.1" 201 119 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:15:53 +0000] "POST /order/1/5 HTTP/1.1" 201 119 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:16:44 +0000] "POST /order/1/5 HTTP/1.1" 201 119 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:18:05 +0000] "POST /order/1/5 HTTP/1.1" 201 120 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:20:32 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:20:47 +0000] "POST /order/1/5 HTTP/1.1" 201 120 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:20:55 +0000] "POST /order/1/5 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:21:43 +0000] "POST /cart/addToCart/1/2 HTTP/1.1" 201 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:36:55 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:37:38 +0000] "POST /books/ HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:37:45 +0000] "POST /books/ HTTP/1.1" 200 15 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:44:08 +0000] "GET /books/getAllBooks HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:44:16 +0000] "GET /books/getAllBooks HTTP/1.1" 200 15 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:45:08 +0000] "GET /books HTTP/1.1" 200 845 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:45:41 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:06:45:56 +0000] "GET /books/getAllBooks HTTP/1.1" 200 449 "-" "PostmanRuntime/7.41.1"
+

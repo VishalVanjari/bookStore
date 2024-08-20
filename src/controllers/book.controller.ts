@@ -30,18 +30,40 @@ class BookController {
   };
 
   /**
-   * Controller to get all books
+   * Controller to get all books for User
    * @param  {object} Request - request object
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-  public getAllBooks = async (
+  public getAllBooksUser = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.BookService.getAllBooks(req.body.userId);
+      const data = await this.BookService.getAllBooksUser(req.body.userId);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'All Books fetched successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+  /**
+   * Controller to get all books fro Admin
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+  public getAllBooksAdmin = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      const data = await this.BookService.getAllBooksAdmin(req.body.userId);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,

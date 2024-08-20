@@ -5,6 +5,7 @@ import userRoute from './user.route';
 import bookRoute from './book.route';
 import CartRoutes from './cart.route';
 import WishlistRoutes from './wishlist.route';
+import OrderRoutes from './order.route';
 
 /**
  * Function contains Application routes
@@ -27,6 +28,9 @@ const routes = (): IRouter => {
 
   // Default Wishlist Routes
   router.use('/wishlist', new WishlistRoutes().getRoutes());
+
+  // Default Order Routes
+  router.use('/order', new OrderRoutes().getRoutes());
   
 
   return router;

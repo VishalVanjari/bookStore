@@ -12,8 +12,14 @@ class BookService {
     return data;
   };
 
-  //get all Books
-  public getAllBooks = async (id: number): Promise<IBook[]> => {
+  //get all Books fro User
+  public getAllBooksUser = async (id: number): Promise<IBook[]> => {
+    const data = await this.Book.findAll();
+    return data;
+  };
+
+  //get all Books for admin
+  public getAllBooksAdmin = async (id: number): Promise<IBook[]> => {
     const data = await this.Book.findAll({ where: { userId: id } });
     return data;
   };
