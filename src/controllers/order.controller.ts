@@ -3,9 +3,11 @@ import HttpStatus from 'http-status-codes';
 import orderService from '../services/order.service';
 import { Request, Response, NextFunction } from 'express';
 import OrderService from '../services/order.service';
+import Logger from '../config/logger';
 
 class OrderController {
   public OrderService = new orderService();
+  public logger = Logger.logger;
 
   /**
    * Controller to placeorder
@@ -30,6 +32,7 @@ class OrderController {
         message: 'Order Placed successfully'
       });
     } catch (error) {
+      this.logger.error('Error Logging user: ', error);
       next(error);
     }
   };

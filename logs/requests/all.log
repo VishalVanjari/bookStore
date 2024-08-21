@@ -586,3 +586,69 @@ info: ::1 - - [20/Aug/2024:06:45:41 +0000] "POST /users/login HTTP/1.1" 200 437 
 
 info: ::1 - - [20/Aug/2024:06:45:56 +0000] "GET /books/getAllBooks HTTP/1.1" 200 449 "-" "PostmanRuntime/7.41.1"
 
+info: ::1 - - [20/Aug/2024:08:43:31 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:43:37 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:43:37 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:43:37 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 152071 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:43:37 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230293 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:43:37 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1452753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:43:38 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:57:31 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:57:37 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:57:37 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:57:37 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10009 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:57:37 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:57:37 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:58:00 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:58:01 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:58:01 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 9987 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:58:01 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:58:01 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:08:58:01 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:09:11:03 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:09:11:03 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:09:11:03 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10285 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:09:11:03 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:09:11:03 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:09:11:03 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [20/Aug/2024:10:15:29 +0000] "POST /users/ HTTP/1.1" 500 51 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:10:15:39 +0000] "POST /users/ HTTP/1.1" 201 250 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:10:16:01 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:10:16:26 +0000] "POST /order/1/1 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:10:17:35 +0000] "POST /order/2/2 HTTP/1.1" 500 56 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:10:19:36 +0000] "POST /order/2/2 HTTP/1.1" 201 119 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:12:07:31 +0000] "POST /users/login HTTP/1.1" 200 435 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [20/Aug/2024:12:09:00 +0000] "POST /address HTTP/1.1" 201 76 "-" "PostmanRuntime/7.41.1"
+

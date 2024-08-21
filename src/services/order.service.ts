@@ -5,12 +5,15 @@ import cart from '../models/cart';
 import book from '../models/book';
 import { error } from 'winston';
 import order from '../models/order';
+import user from '../models/user';
 import { IOrder } from '../interfaces/order.interface';
+import { sendEmail } from '../utils/mail.util';
 
 class OrderService {
   private Cart = cart(sequelize, DataTypes);
   private Book = book(sequelize, DataTypes);
   private Order = order(sequelize, DataTypes);
+  private User = user(sequelize, DataTypes);
 
   // Place Order
   public placeOrder = async (userId, bookId, quantity) => {
@@ -30,6 +33,8 @@ class OrderService {
       await this.Book.update(body, {
         where: { bookId: bookId }
       });
+      const user = await this.User.findOne({where:{ id : userId}});
+      const mail =await sendEmail(user.email);
       return data;
     }
   };

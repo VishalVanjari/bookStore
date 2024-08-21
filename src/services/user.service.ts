@@ -3,10 +3,13 @@ import { IUser } from '../interfaces/user.interface';
 import user from '../models/user';
 import bcrypt from 'bcrypt';
 import Util from '../utils/user.util';
+import Logger from '../config/logger';
+import { error } from 'winston';
 
 class UserService {
   private User = user(sequelize, DataTypes);
   private util = new Util();
+  private logger = Logger.logger;
 
   //Register a new user
   public userRegistration = async (body) => {
@@ -33,7 +36,7 @@ class UserService {
       obj.token = token;
       return obj;
     } catch (error) {
-      throw new error('Error Logging user: ');
+      this.logger.error('Error Logging user: ', error);
     }
   };
 
